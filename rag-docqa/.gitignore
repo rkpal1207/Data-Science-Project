@@ -1,0 +1,19 @@
+# Ignore environment & system files
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.DS_Store
+
+# Ignore dataset and personal files
+docs/
+.chroma/
+
+# Ignore virtual environment (if any)
+venv/
+env/
+.trendsense-env/
